@@ -278,6 +278,15 @@ btn-color-2:hover {
     display: flex;
 }
 
+.about-containers-position,
+.about-containers-education {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .about-pic {
     border-radius: 2rem;
 }
