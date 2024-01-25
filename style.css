@@ -278,8 +278,18 @@ btn-color-2:hover {
     display: flex;
 }
 
-.about-containers-position,
+.about-containers-position {
+    font-size: 0.9rem;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .about-containers-education {
+    font-size: 0.9rem;
     display: flex;
     text-align: left;
     flex-direction: column;
